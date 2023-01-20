@@ -1,0 +1,107 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 500;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar {
+    background: gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+#logoentxt {
+    padding-top: 25px;
+}
+
+#logoentxt #logo {
+    float: left;
+    width: 38%;
+    text-align: center;
+}
+
+#logoentxt #logo #weblogo {
+    width: 100px;
+}
+
+#logoentxt #txt {
+    float: left;
+    width: 60%;
+    padding-bottom: 50px;
+}
+#logoentxt #txt h1 {
+    padding-bottom: 50px;
+    float: left;
+    width: 75%;
+}
+#logoentxt #txt p {
+    float: left;
+    width: 75%;
+}
+
+#klikhierbutton {
+    clear: both;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+#klikhierbutton button {
+    height: 50px;
+    width: 500px;
+    border: 1px black solid;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+}
+
+#klikhierbutton button a {
+    color: black;
+    text-decoration: none;
+}
+
+#imgsovermij {
+    padding-right: 1%;
+}
+
+#imgsovermij #boven {
+    display: flex;
+    justify-content: right;
+}
+
+
+#imgsovermij #onder {
+    display: flex;
+    justify-content: right;
+}
+
+#imgsovermij img {
+    width: 20%;
+    padding: 5px;
+}
